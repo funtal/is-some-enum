@@ -31,7 +31,7 @@ or
 
 - Github: [@playerony](https://github.com/playerony)
 
-- LinkedIn: [@https://www.linkedin.com/in/pwojtasinski](https://www.linkedin.com/in/pwojtasinski)
+- LinkedIn: [@pwojtasinski](https://www.linkedin.com/in/pwojtasinski)
 
 ## [](https://github.com/funtal/has-own-property#-contributing)🤝 Contributing
 
