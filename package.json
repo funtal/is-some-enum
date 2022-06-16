@@ -1,0 +1,82 @@
+{
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "homepage": "https://github.com/funtal/is-some-enum#readme",
+  "description": "Generic type guard to check if a given value is a member of enum",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funtal/is-some-enum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/funtal/is-some-enum/issues"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "name": "is-some-enum",
+  "author": "playerony",
+  "module": "dist/is-some-enum.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/is-some-enum.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/is-some-enum.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^7.0.8",
+    "husky": "4.3.6",
+    "size-limit": "^7.0.8",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.3"
+  },
+  "keywords": [
+    "funtal",
+    "type-safe",
+    "playerony",
+    "isSomeEnum",
+    "typescript",
+    "type-guard",
+    "functional",
+    "Typescript",
+    "is-some-enum",
+    "isSomeEnumOf",
+    "isSomeEnumOfType",
+    "isSomeEnumOfTypeSafe",
+    "is-some-enum-type-guard",
+    "type-guard-for-string-enum",
+    "isSomeEnumOfTypeForStringEnum",
+    "is-some-enum-type-guard-for-string-enum"
+  ]
+}
